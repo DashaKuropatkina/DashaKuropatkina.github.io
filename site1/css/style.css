@@ -128,13 +128,18 @@ body {
 
 .btn__get {
     width: 182px;
-    height: 48px;
+    height: 52px;
     background: #784F33;
     border-radius: 37px;
     margin-right: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: transform .3s;
+}
+
+.btn__get:hover {
+    transform: scale(1.1);
 }
 
 .button__get {
@@ -162,6 +167,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: transform .3s;
+}
+
+.button__learn:hover {
+    transform: scale(1.1);
 }
 
 .title {
@@ -204,6 +214,11 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: transform .3s;
+}
+
+.pr__column:hover {
+    transform: scale(1.1);
 }
 
 .pr__column-text {
@@ -226,6 +241,11 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: transform .3s;
+}
+
+.pr__column-blue:hover {
+    transform: scale(1.1);
 }
 
 .pr__column-text-blue {
@@ -270,6 +290,11 @@ body {
     width: 230px;
     height: 321px;
     background: #FFFFFF;
+    transition: transform .3s;
+}
+
+.ad__column:hover {
+    transform: scale(1.1);
 }
 
 .ad__column-title {
@@ -376,6 +401,14 @@ body {
     padding-top: 50px;
 }
 
+.firms svg {
+    transition: transform .3s;
+}
+
+.firms svg:hover {
+    transform: scale(1.1);
+}
+
 .clients__card {
     width: 986px;
     height: 124px;
@@ -422,6 +455,7 @@ body {
     width: 293px;
     height: 48px;
     padding-left: 20px;
+    outline: none;
 }
 
 .subscribe__pin {
@@ -439,6 +473,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: transform .3s;
+}
+
+.subscribe__pin:hover {
+    transform: scale(1.1);
 }
 
 .line {
@@ -478,6 +517,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: transform .3s;
+}
+
+.contact__column-item:hover {
+    transform: scale(1.1);
 }
 
 .contact__link {
@@ -502,6 +546,22 @@ body {
     padding-bottom: 15px;
 }
 
+.contact__button {
+    width: 154px;
+    height: 44px;
+    border: 1px solid #D0A144;
+    border-radius: 5px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .3s;
+}
+
+.contact__button:hover {
+    transform: scale(1.1);
+}
+
 .contact__btn {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -510,11 +570,6 @@ body {
     text-align: center;
     letter-spacing: 0.2px;
     color: #D0A144;
-    width: 154px;
-    height: 44px;
-    border: 1px solid #D0A144;
-    border-radius: 5px;
-    background: #FFFFFF;
 }
 
 .contact__column-item-big {
@@ -525,6 +580,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: transform .3s;
+}
+
+.contact__column-item-big:hover {
+    transform: scale(1.1);
 }
 
 .contact__link-big {
@@ -549,6 +609,22 @@ body {
     padding-bottom: 15px;
 }
 
+.contact__button-big {
+    width: 154px;
+    height: 44px;
+    border: 1px solid #D0A144;
+    border-radius: 5px; 
+    background: #252B42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .3s;
+}
+
+.contact__button-big:hover {
+    transform: scale(1.1);
+}
+
 .contact__btn-big {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -557,11 +633,6 @@ body {
     text-align: center;
     letter-spacing: 0.2px;
     color: #D0A144;
-    width: 154px;
-    height: 44px;
-    border: 1px solid #D0A144;
-    border-radius: 5px; 
-    background: #252B42;
 }
 
 .consultation {
@@ -611,6 +682,11 @@ body {
     align-items: center;
     justify-content: center;
     margin-right: 148px;
+    transition: transform .3s;
+}
+
+.consultation__button:hover {
+    transform: scale(1.1);
 }
 
 .info {
