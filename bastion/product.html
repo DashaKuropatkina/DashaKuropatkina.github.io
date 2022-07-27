@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bastion Group</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class='header__top'>
+                <div class='header__top-nav'>
+                    <a href="#" class='types-of-products'>Типы продуктов</a>
+                    <a href="#" class='products'>Продукты</a>
+                    <a href="#" class='benefits-of'>Выгоды для вас</a>
+                    <a href="#" class='guarantees'>Гарантии</a>
+                    <a href="#" class='contacts'>Контакты</a>
+                </div>
+                <div class='header__top-contact'>
+                    <div class="header__top-contact-item">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.75 10.575V12.45C13.7507 12.6241 13.7151 12.7964 13.6453 12.9558C13.5756 13.1153 13.4733 13.2585 13.3451 13.3762C13.2168 13.4938 13.0654 13.5834 12.9005 13.6392C12.7356 13.695 12.5609 13.7157 12.3875 13.7C10.4643 13.491 8.61689 12.8338 6.99377 11.7812C5.48366 10.8217 4.20335 9.54136 3.24377 8.03125C2.18751 6.40075 1.53017 4.54437 1.32502 2.6125C1.3094 2.43967 1.32994 2.26547 1.38533 2.10101C1.44072 1.93655 1.52975 1.78543 1.64675 1.65726C1.76374 1.5291 1.90615 1.42669 2.06489 1.35658C2.22363 1.28646 2.39523 1.25016 2.56877 1.25H4.44377C4.74709 1.24701 5.04114 1.35442 5.27112 1.55221C5.5011 1.74999 5.65132 2.02465 5.69377 2.325C5.77291 2.92504 5.91967 3.5142 6.13127 4.08125C6.21536 4.30495 6.23356 4.54807 6.18371 4.7818C6.13386 5.01553 6.01806 5.23007 5.85002 5.4L5.05627 6.19375C5.94599 7.75847 7.24155 9.05403 8.80627 9.94375L9.60002 9.15C9.76995 8.98196 9.98449 8.86616 10.2182 8.81631C10.4519 8.76646 10.6951 8.78466 10.9188 8.86875C11.4858 9.08034 12.075 9.22711 12.675 9.30625C12.9786 9.34908 13.2559 9.502 13.4541 9.73593C13.6523 9.96986 13.7576 10.2685 13.75 10.575Z" stroke="#C93E33" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                            
+                        <p class='phone'>+7 499 380-78-90</p>
+                    </div>
+                    <div class="header__top-contact-item">
+                        <svg width="11" height="15" viewBox="0 0 11 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.5 0.625C8.43402 0.625 10.8125 3.00348 10.8125 5.9375C10.8125 7.80348 9.95138 9.6904 8.51175 11.5316C8.0008 12.1851 7.44513 12.7944 6.87585 13.3493C6.82895 13.3951 6.78283 13.4396 6.73755 13.4829L6.47633 13.7279L6.23788 13.9428L6.02491 14.1267L5.89483 14.2345C5.66659 14.4205 5.33948 14.422 5.10957 14.238L4.97357 14.1255L4.76156 13.9423L4.52355 13.7278L4.26245 13.4829L4.12415 13.3493C3.55488 12.7944 2.9992 12.1851 2.48825 11.5316C1.04862 9.6904 0.1875 7.80348 0.1875 5.9375C0.1875 3.00348 2.56598 0.625 5.5 0.625ZM5.5 1.875C3.25633 1.875 1.4375 3.69383 1.4375 5.9375C1.4375 7.47259 2.18924 9.11983 3.47298 10.7617C3.94694 11.3678 4.4654 11.9363 4.99671 12.4543L5.24841 12.6951C5.33134 12.7729 5.41439 12.8508 5.5 12.9256L5.75156 12.6951L6.00329 12.4543C6.5346 11.9363 7.05306 11.3678 7.52702 10.7617C8.81076 9.11983 9.5625 7.47259 9.5625 5.9375C9.5625 3.69383 7.74367 1.875 5.5 1.875ZM5.5 3.4375C6.88071 3.4375 8 4.55679 8 5.9375C8 7.31821 6.88071 8.4375 5.5 8.4375C4.11929 8.4375 3 7.31821 3 5.9375C3 4.55679 4.11929 3.4375 5.5 3.4375ZM5.5 4.6875C4.80965 4.6875 4.25 5.24715 4.25 5.9375C4.25 6.62785 4.80965 7.1875 5.5 7.1875C6.19035 7.1875 6.75 6.62785 6.75 5.9375C6.75 5.24715 6.19035 4.6875 5.5 4.6875Z" fill="#C93E33"/>
+                            </svg>                            
+                        <p class='city'>Москва</p>
+                    </div>
+                    <div class="header__top-contact-item">
+                        <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.75 0.1875C13.8429 0.189373 13.931 0.206351 14.019 0.248199C14.1098 0.291603 14.1896 0.356999 14.25 0.4375C14.2896 0.496495 14.2803 0.478792 14.25 0.4375C14.331 0.545439 14.375 0.677608 14.375 0.8125C14.3748 0.779209 14.3734 0.76476 14.375 0.8125V10.1875C14.375 10.5327 14.0952 10.8125 13.75 10.8125H1.25C0.904822 10.8125 0.625 10.5327 0.625 10.1875V0.8125C0.625 0.700608 0.655354 0.589505 0.712452 0.493543C0.828808 0.297487 1.03035 0.191928 1.25 0.1875H13.75ZM13.125 2.0625L7.875 6C7.675 6.15 7.4075 6.165 7.194 6.045L7.125 6L1.875 2.0625V9.5625H13.125V2.0625ZM3.125 1.4375L7.5 4.71875L11.875 1.4375H3.125Z" fill="#C93E33"/>
+                            </svg>                            
+                        <p class='email'>info@bastion.pro</p>
+                    </div>
+                </div>
+            </div>
+            <div class='header__bottom'>
+                <img class='header__bottom-img' src="img/header__logo 1.png" alt="image" />
+                <p class='header__bottom-text'>Производитель металлических изделий №1</p>
+                <button class='header__bottom-button'>
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666626 2.33335C0.666626 1.41288 1.41282 0.666687 2.33329 0.666687H6.49996C7.42043 0.666687 8.16663 1.41288 8.16663 2.33335V6.50002C8.16663 7.4205 7.42043 8.16669 6.49996 8.16669H2.33329C1.41282 8.16669 0.666626 7.4205 0.666626 6.50002V2.33335ZM6.49996 2.33335H2.33329V6.50002H6.49996V2.33335ZM9.83329 2.33335C9.83329 1.41288 10.5795 0.666687 11.5 0.666687H15.6666C16.5871 0.666687 17.3333 1.41288 17.3333 2.33335V6.50002C17.3333 7.4205 16.5871 8.16669 15.6666 8.16669H11.5C10.5795 8.16669 9.83329 7.4205 9.83329 6.50002V2.33335ZM15.6666 2.33335H11.5V6.50002H15.6666V2.33335ZM0.666626 11.5C0.666626 10.5795 1.41282 9.83335 2.33329 9.83335H6.49996C7.42043 9.83335 8.16663 10.5795 8.16663 11.5V15.6667C8.16663 16.5872 7.42043 17.3334 6.49996 17.3334H2.33329C1.41282 17.3334 0.666626 16.5872 0.666626 15.6667V11.5ZM6.49996 11.5H2.33329V15.6667H6.49996V11.5ZM9.83329 11.5C9.83329 10.5795 10.5795 9.83335 11.5 9.83335H15.6666C16.5871 9.83335 17.3333 10.5795 17.3333 11.5V15.6667C17.3333 16.5872 16.5871 17.3334 15.6666 17.3334H11.5C10.5795 17.3334 9.83329 16.5872 9.83329 15.6667V11.5ZM15.6666 11.5H11.5V15.6667H15.6666V11.5Z" fill="white" />
+                    </svg>
+                    <a href='catalog.html' class='header__bottom-button-text'>Каталог</a>
+                </button>
+                <div class='header__bottom-input'>
+                    <input type="text" placeholder='Поиск по названию...' /> <svg class="header__bottom-input-search" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 7.28893C0 3.26338 3.26338 0 7.28893 0C11.3145 0 14.5779 3.26338 14.5779 7.28893C14.5779 9.02533 13.9707 10.6199 12.957 11.872L15.7753 14.6902C16.0749 14.9898 16.0749 15.4756 15.7753 15.7753C15.4756 16.0749 14.9898 16.0749 14.6902 15.7753L11.872 12.957C10.6199 13.9707 9.02533 14.5779 7.28893 14.5779C3.26338 14.5779 0 11.3145 0 7.28893ZM7.28893 1.53451C4.11087 1.53451 1.53451 4.11087 1.53451 7.28893C1.53451 10.467 4.11087 13.0433 7.28893 13.0433C10.467 13.0433 13.0433 10.467 13.0433 7.28893C13.0433 4.11087 10.467 1.53451 7.28893 1.53451Z" fill="#C93E33"/></svg> <svg class="header__bottom-input-arrow" width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.33333 0.333313C1.79357 0.333313 2.16667 0.706409 2.16667 1.16665V6.58331C2.16667 6.81344 2.35321 6.99998 2.58333 6.99998H12.6548L10.7441 5.08923C10.4186 4.7638 10.4186 4.23616 10.7441 3.91072C11.0695 3.58529 11.5972 3.58529 11.9226 3.91072L15.2559 7.24406C15.5814 7.56949 15.5814 8.09713 15.2559 8.42257L11.9226 11.7559C11.5972 12.0813 11.0695 12.0813 10.7441 11.7559C10.4186 11.4305 10.4186 10.9028 10.7441 10.5774L12.6548 8.66665H2.58333C1.43275 8.66665 0.5 7.73393 0.5 6.58331V1.16665C0.5 0.706409 0.873096 0.333313 1.33333 0.333313Z" fill="#C93E33"/></svg>                                               
+                </div>
+                <div class='header__bottom-column'>
+                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.99722 0.250003C10.3145 0.249188 10.6048 0.428639 10.7458 0.712863L13.132 5.52073L18.4535 6.29668C18.767 6.34239 19.0274 6.56186 19.1256 6.86304C19.2238 7.16422 19.1427 7.49502 18.9164 7.71666L15.0457 11.5074L15.9648 16.7734C16.0195 17.0871 15.8907 17.4047 15.6328 17.5915C15.3748 17.7784 15.033 17.8019 14.7519 17.6521L9.9994 15.119L5.24797 17.652C4.96674 17.802 4.62463 17.7784 4.36665 17.5912C4.10867 17.4041 3.98001 17.0862 4.0352 16.7724L4.96095 11.5074L1.08405 7.71717C0.857363 7.49555 0.776058 7.1645 0.874291 6.86308C0.972524 6.56165 1.23328 6.34208 1.54702 6.29658L6.89743 5.52074L9.25101 0.716704C9.39061 0.431758 9.67992 0.250818 9.99722 0.250003ZM10.0042 2.96758L8.20063 6.64896C8.07954 6.89612 7.84424 7.06755 7.57186 7.10704L3.45476 7.70405L6.44037 10.6229C6.63707 10.8152 6.7262 11.0922 6.67856 11.3631L5.9728 15.3769L9.60733 13.4393C9.85234 13.3087 10.1463 13.3087 10.3913 13.4393L14.0294 15.3784L13.3284 11.3621C13.2812 11.0917 13.3702 10.8154 13.5663 10.6234L16.5482 7.70314L12.4594 7.10695C12.1888 7.06749 11.9548 6.89777 11.8332 6.6528L10.0042 2.96758Z" fill="#C93E33"/>
+                    </svg>                        
+                    <p class='header__bottom-column-text'>Избранное</p>
+                </div>
+                <div class='header__bottom-column'>
+                    <a href="cart.html"><svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.416626 1.50002C0.416626 1.03978 0.789722 0.666687 1.24996 0.666687H2.70829C3.09068 0.666687 3.424 0.926935 3.51675 1.29791L3.98394 3.16669H18.3333C18.5899 3.16669 18.8322 3.28491 18.9901 3.48718C19.1481 3.68944 19.204 3.95318 19.1417 4.20213L17.0584 12.5355C16.9657 12.9064 16.6324 13.1667 16.25 13.1667H5.41663C5.03424 13.1667 4.70092 12.9064 4.60817 12.5355L2.05765 2.33335H1.24996C0.789722 2.33335 0.416626 1.96026 0.416626 1.50002ZM4.40061 4.83335L6.06727 11.5H15.5993L17.266 4.83335H4.40061Z" fill="#C93E33"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.41663 13.1667C6.56722 13.1667 7.49996 14.0994 7.49996 15.25C7.49996 16.4006 6.56722 17.3334 5.41663 17.3334C4.26603 17.3334 3.33329 16.4006 3.33329 15.25C3.33329 14.0994 4.26603 13.1667 5.41663 13.1667ZM5.41663 14.8334C5.18651 14.8334 4.99996 15.0199 4.99996 15.25C4.99996 15.4801 5.18651 15.6667 5.41663 15.6667C5.64675 15.6667 5.83329 15.4801 5.83329 15.25C5.83329 15.0199 5.64675 14.8334 5.41663 14.8334Z" fill="#C93E33"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.25 13.1667C17.4006 13.1667 18.3333 14.0994 18.3333 15.25C18.3333 16.4006 17.4006 17.3334 16.25 17.3334C15.0994 17.3334 14.1666 16.4006 14.1666 15.25C14.1666 14.0994 15.0994 13.1667 16.25 13.1667ZM15.8333 15.25C15.8333 15.0199 16.0198 14.8334 16.25 14.8334C16.4801 14.8334 16.6666 15.0199 16.6666 15.25C16.6666 15.4801 16.4801 15.6667 16.25 15.6667C16.0198 15.6667 15.8333 15.4801 15.8333 15.25Z" fill="#C93E33"/>
+                    </svg></a>                       
+                    <p class='header__bottom-column-text'>Корзина</p>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class='main__nav'>
+                <p class='main__nav-text'>Главная</p>
+                <svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.25 3.5L2.75 2L1.25 0.500001" stroke="#B3B3B3" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <p class='main__nav-text'>Интернет-магазин</p>
+                <svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.25 3.5L2.75 2L1.25 0.500001" stroke="#B3B3B3" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <p class='main__nav-text-main'>Опоры трубопроводов</p>
+            </div>
+            <div class="main__product-box">
+                <div class="product__title">
+                    <p class="sale">акция</p>
+                    <p class="article">Артикул: 1218Н</p>
+                </div>
+                <div class="product">
+                    <div class="left">
+                        <div class="top">
+                            <img src="img-prod/img1.jpg" alt="image">
+                        </div>
+                        <div class="bottom">
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g opacity="0.5">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.60369 3.08752C5.83149 3.31532 5.8315 3.68467 5.60369 3.91247L3.09953 6.41666L12.1912 6.41666C12.5134 6.41666 12.7746 6.67783 12.7746 7C12.7746 7.32216 12.5134 7.58333 12.1912 7.58333L3.09953 7.58333L5.60369 10.0875C5.8315 10.3153 5.83149 10.6847 5.60369 10.9125C5.37588 11.1403 5.00654 11.1403 4.77873 10.9125L1.27876 7.41248C1.05096 7.18467 1.05096 6.81533 1.27876 6.58752L4.77873 3.08752C5.00654 2.85971 5.37588 2.85971 5.60369 3.08752Z" fill="#C93E33"/>
+                                </g>
+                            </svg>
+                            <img class="main" src="img-prod/img2.jpg" alt="image">
+                            <img src="img-prod/img3.jpg" alt="image">
+                            <img src="img-prod/img4.jpg" alt="image">
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.39631 10.9125C8.16851 10.6847 8.1685 10.3153 8.39631 10.0875L10.9005 7.58334L1.80876 7.58334C1.48659 7.58334 1.22543 7.32217 1.22543 7C1.22543 6.67784 1.48659 6.41667 1.80876 6.41667L10.9005 6.41667L8.39631 3.91248C8.1685 3.68467 8.1685 3.31533 8.39631 3.08752C8.62412 2.85972 8.99346 2.85972 9.22127 3.08752L12.7212 6.58752C12.949 6.81533 12.949 7.18467 12.7212 7.41248L9.22127 10.9125C8.99346 11.1403 8.62412 11.1403 8.39631 10.9125Z" fill="#C93E33"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="right__title">
+                            <h2 class="title">Опора корпусная хомутовая КХ</h2>
+                            <p class="gost">ГОСТ 14911-82</p>
+                        </div>
+                        <div class="right__price">
+                            <h5 class="title">Цена</h5>
+                            <div class="price__item">
+                                <p class="price-main">8 499 руб.</p>
+                                <p class="price">11 700 руб.</p>
+                                <div class="quantity">
+                                    <p>+</p>
+                                    <p>3</p>
+                                    <p>-</p>
+                                </div>
+                            </div>
+                            <button class="button">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.375 2.25C0.375 1.83579 0.710786 1.5 1.125 1.5H2.4375C2.78165 1.5 3.08164 1.73422 3.16511 2.0681L3.58558 3.75H16.5C16.731 3.75 16.949 3.8564 17.0912 4.03844C17.2333 4.22048 17.2836 4.45785 17.2276 4.6819L15.3526 12.1819C15.2691 12.5158 14.9692 12.75 14.625 12.75H4.875C4.53085 12.75 4.23086 12.5158 4.14739 12.1819L1.85192 3H1.125C0.710786 3 0.375 2.66421 0.375 2.25ZM4.875 12.75C3.83947 12.75 3 13.5895 3 14.625C3 15.6605 3.83947 16.5 4.875 16.5C5.91053 16.5 6.75 15.6605 6.75 14.625C6.75 13.5895 5.91053 12.75 4.875 12.75ZM14.625 12.75C13.5895 12.75 12.75 13.5895 12.75 14.625C12.75 15.6605 13.5895 16.5 14.625 16.5C15.6605 16.5 16.5 15.6605 16.5 14.625C16.5 13.5895 15.6605 12.75 14.625 12.75ZM3.96058 5.25L5.46058 11.25H14.0394L15.5394 5.25H3.96058ZM9.75 6C10.1642 6 10.5 6.33579 10.5 6.75V7.5H11.25C11.6642 7.5 12 7.83579 12 8.25C12 8.66421 11.6642 9 11.25 9H10.5V9.75C10.5 10.1642 10.1642 10.5 9.75 10.5C9.33579 10.5 9 10.1642 9 9.75V9H8.25C7.83579 9 7.5 8.66421 7.5 8.25C7.5 7.83579 7.83579 7.5 8.25 7.5H9V6.75C9 6.33579 9.33579 6 9.75 6ZM4.875 14.25C4.66789 14.25 4.5 14.4179 4.5 14.625C4.5 14.8321 4.66789 15 4.875 15C5.08211 15 5.25 14.8321 5.25 14.625C5.25 14.4179 5.08211 14.25 4.875 14.25ZM14.625 14.25C14.4179 14.25 14.25 14.4179 14.25 14.625C14.25 14.8321 14.4179 15 14.625 15C14.8321 15 15 14.8321 15 14.625C15 14.4179 14.8321 14.25 14.625 14.25Z" fill="white"/>
+                                </svg>
+                                <p class="text">В корзину</p>
+                            </button>
+                        </div>
+                        <div class="right__text">
+                            <h5 class="title">Описание</h5>
+                            <p class="text">Корпусные хомутовые опоры трубопроводов для крепления труб диаметром от 57 до 630 мм. Состоят из корпуса с приваренными ребрами жесткости и двух либо четырех полухомутов. Изготавливаются согласно ОСТ 36-146-88 тип КХ из углеродистой стали ВСт3пс, ст. 20, 09Г2С, и нержавеющей 12Х18Н10Т.</p>
+                            <p class="text-red">Раскрыть полное описание</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="info__left">
+                        <div class="info__title">
+                            <h3 class="title">Информация</h3>
+                        </div>
+                        <div class="info__box">
+                            <div class="left__item">
+                                <p class="title">Тип</p>
+                                <svg width="380" height="1" viewBox="0 0 380 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line x1="-4.37114e-08" y1="0.5" x2="380" y2="0.499967" stroke="#E6E6E6" stroke-dasharray="3 3"/>
+                                </svg>                                    
+                                <p class="text">Опора подвижная хомутовая ОПХ2</p>
+                            </div>
+                            <div class="left__item">
+                                <p class="title">Наличие корпуса</p>
+                                <svg width="452" height="1" viewBox="0 0 452 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line x1="-4.37114e-08" y1="0.5" x2="452" y2="0.49996" stroke="#E6E6E6" stroke-dasharray="3 3"/>
+                                </svg>                                    
+                                <p class="text">Корпусная</p>
+                            </div>
+                            <div class="left__item">
+                                <p class="title">Тип основания</p>
+                                <svg width="348" height="1" viewBox="0 0 348 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line x1="-4.37114e-08" y1="0.5" x2="348" y2="0.49997" stroke="#E6E6E6" stroke-dasharray="3 3"/>
+                                </svg>                                    
+                                <p class="text">Со сплошным основанием</p>
+                            </div>
+                            <div class="left__item">
+                                <p class="title">Вариант установки опор трубопроводов</p>
+                                <svg width="283" height="1" viewBox="0 0 283 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line x1="-4.37114e-08" y1="0.5" x2="283" y2="0.499975" stroke="#E6E6E6" stroke-dasharray="3 3"/>
+                                </svg>                                    
+                                <p class="text">Наземный</p>
+                            </div>
+                            <div class="left__item">
+                                <p class="title">Способ крепления и фиксации трубопровода</p>
+                                <svg width="174" height="1" viewBox="0 0 174 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line x1="-4.37114e-08" y1="0.5" x2="174" y2="0.499985" stroke="#E6E6E6" stroke-dasharray="3 3"/>
+                                </svg>                                    
+                                <p class="text">Хомутовый стяжной</p>
+                            </div>
+                            <div class="left__item">
+                                <p class="title">Направление трубопровода в плоскости</p>
+                                <svg width="93" height="1" viewBox="0 0 93 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line x1="-4.37114e-08" y1="0.5" x2="93" y2="0.499992" stroke="#E6E6E6" stroke-dasharray="3 3"/>
+                                </svg>                                    
+                                <p class="text">Для горизонтальных трубопроводов</p>
+                            </div>
+                            <div class="left__item">
+                                <p class="title">Нормативный документ</p>
+                                <svg width="383" height="1" viewBox="0 0 383 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line x1="-4.37114e-08" y1="0.5" x2="383" y2="0.499967" stroke="#E6E6E6" stroke-dasharray="3 3"/>
+                                </svg>                                                                        
+                                <p class="text">ГОСТ 14911-82</p>
+                            </div>
+                            <div class="left__item">
+                                <p class="title">Отраслевой стандарт</p>
+                                <svg width="401" height="1" viewBox="0 0 401 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line x1="-4.37114e-08" y1="0.5" x2="401" y2="0.499965" stroke="#E6E6E6" stroke-dasharray="3 3"/>
+                                </svg>                                    
+                                <p class="text">Для ТЭС/АЭС</p>
+                            </div>
+                            <div class="left__item">
+                                <p class="title">Сертификат</p>
+                                <svg width="410" height="1" viewBox="0 0 410 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line x1="-4.37114e-08" y1="0.5" x2="410" y2="0.499964" stroke="#E6E6E6" stroke-dasharray="3 3"/>
+                                </svg>                                    
+                                <p class="text">РОСС.RU.HA36.H00662</p>
+                            </div>
+                            <div class="left__item">
+                                <p class="title">Страна</p>
+                                <svg width="549" height="1" viewBox="0 0 549 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line x1="-4.37114e-08" y1="0.5" x2="549" y2="0.499952" stroke="#E6E6E6" stroke-dasharray="3 3"/>
+                                </svg>                                  
+                                <p class="text">РОССИЯ</p>
+                            </div>
+                            <div class="left__item last">
+                                <p class="title">Производитель</p>
+                                <svg width="348" height="1" viewBox="0 0 348 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line x1="-4.37114e-08" y1="0.5" x2="348" y2="0.49997" stroke="#E6E6E6" stroke-dasharray="3 3"/>
+                                </svg>                                    
+                                <p class="text">ООО "КипМонтажПоставка"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info__right">
+                        <div class="right__title">
+                            <p class="title">Техническая документация</p>
+                        </div>
+                        <div class="right__box">
+                            <div class="right__item">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#C93E33" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M14 2V8H20" stroke="#C93E33" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16 13H8" stroke="#C93E33" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16 17H8" stroke="#C93E33" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10 9H9H8" stroke="#C93E33" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg> 
+                                <div class="text">                                       
+                                    <h5 class="title">Сертификат соответствия</h5>
+                                    <p class="text">.pdf  2.5 Mb</p>
+                                </div>
+                            </div>
+                            <div class="right__item">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#C93E33" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M14 2V8H20" stroke="#C93E33" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16 13H8" stroke="#C93E33" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16 17H8" stroke="#C93E33" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10 9H9H8" stroke="#C93E33" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>  
+                                <div class="text">                                     
+                                    <h5 class="title">Приложение</h5>
+                                    <p class="text">.pdf  2.5 Mb</p>
+                                </div>
+                            </div>
+                            <div class="right__item">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#C93E33" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M14 2V8H20" stroke="#C93E33" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16 13H8" stroke="#C93E33" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16 17H8" stroke="#C93E33" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10 9H9H8" stroke="#C93E33" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg> 
+                                <div class="text">                                  
+                                    <h5 class="title">Разрешение</h5>
+                                    <p class="text">.pdf  2.5 Mb</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main__product-box-mini">
+                <div class="box-mini-title">
+                    <h3 class="title">Похожие товары </h3>
+                    <p class="num">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.5">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.60369 3.08754C5.83149 3.31534 5.8315 3.68469 5.60369 3.9125L3.09953 6.41669L12.1912 6.41669C12.5134 6.41669 12.7746 6.67785 12.7746 7.00002C12.7746 7.32219 12.5134 7.58335 12.1912 7.58335L3.09953 7.58335L5.60369 10.0875C5.8315 10.3154 5.83149 10.6847 5.60369 10.9125C5.37588 11.1403 5.00654 11.1403 4.77873 10.9125L1.27876 7.4125C1.05096 7.18469 1.05096 6.81535 1.27876 6.58754L4.77873 3.08754C5.00654 2.85974 5.37588 2.85973 5.60369 3.08754Z" fill="#C93E33"/>
+                            </g>
+                        </svg>                                              
+                        <svg width="49" height="15" viewBox="0 0 49 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M43.3963 11.9125C43.1685 11.6847 43.1685 11.3153 43.3963 11.0875L45.9005 8.58331L36.8088 8.58331C36.4866 8.58331 36.2254 8.32215 36.2254 7.99998C36.2254 7.67781 36.4866 7.41665 36.8088 7.41665L45.9005 7.41665L43.3963 4.91246C43.1685 4.68465 43.1685 4.3153 43.3963 4.0875C43.6241 3.85969 43.9935 3.85969 44.2213 4.0875L47.7212 7.5875C47.949 7.81531 47.949 8.18465 47.7212 8.41246L44.2213 11.9125C43.9935 12.1403 43.6241 12.1403 43.3963 11.9125Z" fill="#C93E33"/>
+                            <path d="M7.53 9.43V10.525H6.225V13H4.89V10.525H0.6V9.535L3.615 2.815L4.77 3.295L2.055 9.43H4.905L5.025 6.73H6.225V9.43H7.53Z" fill="black"/>
+                            <path d="M13.1734 0.894999L14.3434 1.165L10.8784 14.56L9.6934 14.275L13.1734 0.894999ZM19.9978 2.965V13H18.6178V4.435L16.2778 5.86L15.6778 4.885L18.7828 2.965H19.9978ZM25.1971 2.815C25.7971 2.815 26.3221 2.935 26.7721 3.175C27.2321 3.415 27.5871 3.745 27.8371 4.165C28.0871 4.575 28.2121 5.04 28.2121 5.56C28.2121 6.17 28.0721 6.755 27.7921 7.315C27.5221 7.875 27.1021 8.48 26.5321 9.13C25.9621 9.78 25.0971 10.685 23.9371 11.845H28.4521L28.2871 13H22.3621V11.905C23.7021 10.515 24.6521 9.5 25.2121 8.86C25.7721 8.21 26.1721 7.645 26.4121 7.165C26.6521 6.685 26.7721 6.17 26.7721 5.62C26.7721 5.1 26.6221 4.695 26.3221 4.405C26.0221 4.105 25.6221 3.955 25.1221 3.955C24.7121 3.955 24.3521 4.04 24.0421 4.21C23.7321 4.38 23.4021 4.66 23.0521 5.05L22.1521 4.33C22.5621 3.82 23.0171 3.44 23.5171 3.19C24.0171 2.94 24.5771 2.815 25.1971 2.815Z" fill="#B3B3B3"/>
+                        </svg>
+                    </p>
+                </div>
+                <div class="box-mini-item">
+                    <div class="column">
+                        <img class="img1" src="img-prod/img5.jpg" alt="image">
+                        <p class="gost">ГОСТ 14911-82</p>
+                        <h3 class="title-first">Опора тавровая приварная ТП</h3>
+                        <p class="text">849.9 руб.</p>
+                    </div>
+                    <div class="column main">
+                        <img class="img2" src="img-prod/img6.jpg" alt="image">
+                        <p class="gost">ГОСТ 14911-82</p>
+                        <h3 class="title">Опора подвижная ОПП3</h3>
+                        <p class="text">849.9 руб.</p>
+                    </div>
+                    <div class="column main">
+                        <img class="img3" src="img-prod/img7.jpg" alt="image">
+                        <p class="gost">ГОСТ 14911-82</p>
+                        <h3 class="title">Опора подвижная ОПП2</h3>
+                        <p class="text">849.9 руб.</p>
+                    </div>
+                    <div class="column main">
+                        <img class="img3" src="img-prod/img7.jpg" alt="image">
+                        <p class="gost">ГОСТ 14911-82</p>
+                        <h3 class="title">Опора подвижная ОПП2</h3>
+                        <p class="text">849.9 руб.</p>
+                    </div>
+                </div>
+                <div class="box-mini-line">
+                    <div class="item">
+                        <svg class="red" width="320" height="6" viewBox="0 0 320 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="320" height="6" fill="#C93E33"/>
+                        </svg>                        
+                        <svg class="grey" width="1050" height="6" viewBox="0 0 1050 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="1050" height="6" fill="#F2F2F2"/>
+                        </svg>  
+                    </div>                      
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <img src="img/footer.png" alt="footer">
+        </footer>
+    </div>
+</body>
+</html>

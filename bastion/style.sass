@@ -1,0 +1,1713 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+a
+  text-decoration: none
+
+body
+  color: #000000
+  font-family: 'Fira Sans', sans-serif
+
+.wrapper
+  max-width: 1440px
+  background: #E5E5E5
+
+.header__top
+  display: flex
+  height: 46px
+
+  &-nav
+    display: flex
+    align-items: center
+    margin: 16px 188px 16px 145px
+
+    & a
+      color: #000000
+      padding-right: 32px
+      font-weight: 300
+      font-size: 12px
+      line-height: 14px
+      letter-spacing: 0.009em
+
+  &-contact
+    display: flex
+    margin-top: 14px
+    margin-bottom: 13px
+    margin-right: 125px
+
+    &-item
+      display: flex
+      align-items: center
+      gap: 12px
+      padding-left: 32px
+
+      & .phone
+        font-weight: 700
+        font-size: 16px
+        line-height: 19px
+        letter-spacing: 1px
+        color: #000000
+
+      & .city
+        font-weight: 400
+        font-size: 12px
+        line-height: 14px
+        letter-spacing: 0.009em
+        color: #C93E33
+
+      & .email
+        font-weight: 300
+        font-size: 12px
+        line-height: 14px
+        text-align: right
+        letter-spacing: 0.008em
+        color: #333333
+
+.header__bottom
+  background: #FFFFFF
+  display: flex
+  height: 110px
+
+  &-img
+    width: 82px
+    height: 70px
+    margin-left: 162px
+    margin-top: 20px
+
+  &-text
+    font-weight: 400
+    font-size: 12px
+    line-height: 12px
+    letter-spacing: 0.009em
+    width: 112px
+    margin-left: 15px
+    margin-top: 34px
+
+  &-button
+    width: 145px
+    height: 42px
+    left: 377px
+    top: 77px
+    background: #C93E33
+    border-radius: 4px
+    display: flex
+    border: none
+    justify-content: center
+    align-items: center
+    gap: 17px
+    margin-top: 31px
+    margin-left: 7px
+
+    &-text
+      font-weight: 500
+      font-size: 15px
+      line-height: 18px
+      letter-spacing: 0.009em
+      color: #FFFFFF
+
+  &-input input
+    width: 546px
+    height: 42px
+    background: #FFFFFF
+    border: 1px solid #E6E6E6
+    border-radius: 4px
+    padding-left: 48px
+    outline: none
+    position: relative
+    margin-top: 31px
+    margin-left: 20px
+
+  &-input
+    &-search
+      position: absolute
+      top: 90px
+      left: 559px
+
+    &-arrow
+      position: absolute
+      top: 91px
+      left: 1055px
+
+  &-column
+    margin-top: 33px
+    margin-left: 42px
+    text-align: center
+
+    &-text
+      font-weight: 300
+      font-size: 12px
+      line-height: 14px
+      letter-spacing: 0.009em
+      color: #000000
+      padding-top: 5px
+
+.main__nav
+  display: flex
+  align-items: center
+  padding-top: 17px
+  padding-left: 145px
+  padding-bottom: 13px
+  gap: 10px
+
+  &-text
+    font-weight: 300
+    font-size: 12px
+    line-height: 14px
+    letter-spacing: 0.009em
+    color: #B3B3B3
+
+    &-main
+      font-weight: 500
+      font-size: 12px
+      line-height: 14px
+      letter-spacing: 0.009em
+      color: #000000
+
+  &-title
+    display: flex
+
+    &-text
+      display: flex
+      align-items: center
+
+      & .ellipse
+        margin-left: 145px
+        position: relative
+
+      & .arrow-left
+        position: absolute
+        margin-left: 152px
+
+      &-title
+        font-weight: 500
+        font-size: 30px
+        line-height: 36px
+        letter-spacing: 1px
+        color: #000000
+        padding-left: 20px
+
+    &-filter
+      display: flex
+      align-items: center
+      margin-left: 535px
+
+      &-text
+        font-weight: 400
+        font-size: 12px
+        line-height: 14px
+        letter-spacing: 0.009em
+        color: #000000
+        padding-right: 6px
+
+      & .rect
+        margin-left: 31px
+        position: relative
+
+      & .ell
+        position: absolute
+        top: 207px
+        left: 1238px
+
+      & .filter-all
+        position: absolute
+        top: 212px
+        left: 1242px
+
+      & .filter-list
+        position: absolute
+        top: 212px
+        left: 1262px
+
+  &-box
+    width: 1110px
+    height: 1338px
+    background: #FFFFFF
+    border: 1px solid #E6E6E6
+    margin-top: 30px
+    margin-left: 155px
+    display: flex
+
+    &-left
+      width: 269px
+
+      &-title
+        height: 59px
+        border-bottom: 1px solid #E6E6E6
+        display: flex
+        align-items: center
+
+        & .box__all
+          margin-left: 22px
+
+        & .text
+          font-weight: 500
+          font-size: 18px
+          line-height: 22px
+          letter-spacing: 0.009em
+          color: #000000
+          padding-left: 12px
+
+        & .box__down
+          margin-left: 101px
+
+      &-text
+        border-bottom: 1px solid #E6E6E6
+
+        & .item
+          &__text
+            font-weight: 400
+            font-size: 12px
+            line-height: 14px
+            letter-spacing: 0.009em
+            color: #B3B3B3
+            padding-top: 20px
+            margin-left: 20px
+
+          &__title
+            font-weight: 400
+            font-size: 12px
+            line-height: 14px
+            letter-spacing: 0.009em
+            color: #000000
+            position: relative
+            margin-left: 20px
+
+          & .icon_1
+            position: absolute
+            top: 360px
+            left: 368px
+
+          & .icon__1
+            position: absolute
+            top: 362px
+            left: 373px
+
+          & .icon_2
+            position: absolute
+            top: 422px
+            left: 275px
+
+          & .icon__2
+            position: absolute
+            top: 425px
+            left: 280px
+
+          & .icon_3
+            position: absolute
+            top: 498px
+            left: 360px
+
+          & .icon__3
+            position: absolute
+            top: 501px
+            left: 363px
+
+          & .icon_4
+            position: absolute
+            top: 560px
+            left: 336px
+
+          & .icon__4
+            position: absolute
+            top: 562px
+            left: 340px
+
+          & .icon_5
+            position: absolute
+            top: 622px
+            left: 224px
+
+          & .icon__5
+            position: absolute
+            top: 625px
+            left: 228px
+
+          & .icon_6
+            position: absolute
+            top: 684px
+            left: 268px
+
+          & .icon__6
+            position: absolute
+            top: 686px
+            left: 271px
+
+        & .item__red
+          display: flex
+          align-items: center
+          gap: 8px
+          padding-top: 20px
+          padding-bottom: 30px
+          margin-left: 20px
+
+          &-text
+            font-weight: 400
+            font-size: 12px
+            line-height: 14px
+            text-align: center
+            letter-spacing: 0.009em
+            color: #C93E33
+
+      &-filter
+        display: flex
+        align-items: center
+        gap: 11px
+        padding-top: 19px
+        padding-bottom: 19px
+        padding-left: 21px
+        border-bottom: 1px solid #E6E6E6
+
+        & .title
+          font-weight: 500
+          font-size: 18px
+          line-height: 22px
+          letter-spacing: 0.009em
+          color: #000000
+
+      &-filter-price
+        border-bottom: 1px solid #E6E6E6
+
+        & .price__title
+          display: flex
+          align-items: center
+          gap: 140px
+          padding-top: 20px
+          padding-left: 20px
+
+          & p
+            font-weight: 500
+            font-size: 16px
+            line-height: 19px
+            letter-spacing: 0.009em
+            color: #000000
+
+        & .price__box
+           display: flex
+           gap: 13px
+           margin-top: 20px
+           margin-left: 20px
+           margin-bottom: 20px
+
+           & .box
+             width: 108px
+             height: 35px
+             background: #FFFFFF
+             border: 1px solid #E6E6E6
+             border-radius: 2px
+
+             & .text
+               font-weight: 400
+               font-size: 12px
+               line-height: 14px
+               letter-spacing: 0.009em
+               color: #000000
+               padding-top: 9px
+               padding-left: 15px
+
+             & .box__span
+               font-weight: 400
+               font-size: 12px
+               line-height: 14px
+               letter-spacing: 0.009em
+               color: #B3B3B3
+               padding-left: 5px
+
+        & .price__line
+          & .grey
+            position: relative
+            padding-left: 25px
+            margin-bottom: 20px
+
+          & .red_l
+            position: absolute
+            top: 934px
+            left: 201px
+
+          & .red
+            position: absolute
+            top: 940px
+            left: 209px
+
+          & .red_r
+            position: absolute
+            top: 933px
+            left: 325px
+
+      &-type
+         display: flex
+         align-items: center
+         padding-top: 20px
+         padding-left: 20px
+         padding-bottom: 20px
+         border-bottom: 1px solid #E6E6E6
+         gap: 6px
+
+         & .text
+            font-weight: 500
+            font-size: 16px
+            line-height: 19px
+            letter-spacing: 0.009em
+            color: #000000
+
+         & .type__icon
+            margin-left: 85px
+
+         & .type_icon
+            margin-left: 153px
+
+      &-filter
+          display: flex
+          border-bottom: 1px solid #E6E6E6
+
+          & .filter-type__input
+              padding-left: 20px
+              padding-right: 14px
+
+          & .text
+              font-weight: 400
+              font-size: 15px
+              line-height: 18px
+              letter-spacing: 0.009em
+              color: #B3B3B3
+
+      &-price-filter
+          display: flex
+          margin-top: 21px
+
+          & .filter-type__input
+              margin-left: 20px
+              margin-right: 14px
+
+          & .price-filter-text
+              font-weight: 400
+              font-size: 15px
+              line-height: 18px
+              letter-spacing: 0.009em
+              color: #000000
+
+      & .filter__button
+         font-weight: 400
+         font-size: 15px
+         line-height: 18px
+         text-align: center
+         letter-spacing: 0.009em
+         color: #B3B3B3
+         width: 229px
+         height: 47px
+         background: #FFFFFF
+         border: 1px solid #E6E6E6
+         border-radius: 4px
+         margin-top: 30px
+         margin-left: 20px
+
+    &-right
+       border-left: 1px solid #E6E6E6
+       width: 858px
+
+       &-nav
+          margin-top: 17px
+          margin-left: 15px
+          margin-bottom: 16px
+
+          & .nav__button
+            width: 97px
+            height: 25px
+            background: #F9F9F9
+            border-radius: 4px
+            border: none
+            margin-left: 5px
+
+          & .nav__link
+            font-weight: 400
+            font-size: 12px
+            line-height: 14px
+            text-align: center
+            letter-spacing: 0.009em
+            color: #000000
+
+       &-box
+          display: flex
+          flex-wrap: wrap
+
+          & .item
+             width: 280px
+             height: 426px
+             overflow: hidden
+             border-top: 1px solid #E6E6E6
+             border-right: 1px solid #E6E6E6
+             border-bottom: 1px solid #E6E6E6
+             position: relative
+             transition: transform 300ms ease
+             z-index: 20
+
+             &:hover
+               transform: scale(1.1)
+               overflow: visible
+               background: #FFFFFF
+               border: 1px solid #E6E6E6
+               height: 545px
+               z-index: 300
+
+             & .item__p
+               display: flex
+               gap: 5px
+               margin-top: 15px
+               margin-left: 15px
+
+               & .hit
+                  font-weight: 400
+                  font-size: 10px
+                  line-height: 12px
+                  text-align: center
+                  padding-top: 5px
+                  letter-spacing: 0.009em
+                  text-transform: uppercase
+                  color: #FFFFFF
+                  width: 54px
+                  height: 21px
+                  background: #FD7272
+                  border-radius: 50px
+
+               & .sale
+                  font-weight: 400
+                  font-size: 10px
+                  line-height: 12px
+                  text-align: center
+                  padding-top: 5px
+                  letter-spacing: 0.009em
+                  text-transform: uppercase
+                  color: #FFFFFF
+                  width: 62px
+                  height: 21px
+                  background: #E67E22
+                  border-radius: 50px
+
+               & .share
+                   font-weight: 400
+                   font-size: 10px
+                   line-height: 12px
+                   text-align: center
+                   padding-top: 5px
+                   letter-spacing: 0.009em
+                   text-transform: uppercase
+                   color: #FFFFFF
+                   width: 57px
+                   height: 21px
+                   background: #27AE60
+                   border-radius: 50px
+
+             & .img-1
+                margin-top: 14px
+                margin-left: 51px
+
+             & .img-2
+                margin-top: 83px
+                margin-left: 40px
+                margin-bottom: 30px
+
+             & .img-4
+                margin-top: 83px
+                margin-left: 29px
+                margin-bottom: 30px
+
+             & .img-5
+                margin-top: 48px
+                margin-left: 30px
+                margin-bottom: 10px
+
+             & .img-7
+                margin-top: 28px
+                margin-left: 56px
+
+             & .img-8
+                margin-top: 66px
+                margin-left: 57px
+
+             & .gost
+                font-weight: 400
+                font-size: 10px
+                line-height: 12px
+                text-align: center
+                padding-top: 4px
+                letter-spacing: 0.009em
+                color: #C93E33
+                width: 83px
+                height: 20px
+                background: #fbe0de
+                border-radius: 2px
+                margin-top: 38px
+                margin-left: 20px
+
+             & .item__title
+                font-weight: 400
+                font-size: 18px
+                line-height: 22px
+                letter-spacing: 0.009em
+                color: #000000
+                margin-top: 25px
+                margin-left: 20px
+
+             & .item__price
+                font-weight: 700
+                font-size: 15px
+                line-height: 18px
+                letter-spacing: 0.009em
+                color: #000000
+                margin-top: 9px
+                margin-left: 20px
+
+             & .item__button
+                width: 240px
+                height: 42px
+                background: #C93E33
+                border-radius: 4px
+                border: none
+                gap: 16px
+                display: flex
+                align-items: center
+                justify-content: center
+                margin-top: 28px
+                margin-left: 19px
+
+                & .text
+                  font-weight: 500
+                  font-size: 15px
+                  line-height: 18px
+                  letter-spacing: 0.009em
+                  color: #FFFFFF
+
+             & .item__btn
+                font-weight: 400
+                font-size: 15px
+                line-height: 18px
+                text-align: center
+                letter-spacing: 0.009em
+                color: #000000
+                width: 240px
+                height: 42px
+                background: #EFEFEF
+                border-radius: 4px
+                border: none
+                margin-top: 15px
+                margin-left: 19px
+                margin-bottom: 31px
+
+             & .item__p-red
+                margin-top: 15px
+                position: absolute
+                z-index: 100
+
+                & .hit__red
+                  font-weight: 400
+                  font-size: 10px
+                  line-height: 12px
+                  text-align: center
+                  padding-top: 5px
+                  letter-spacing: 0.009em
+                  text-transform: uppercase
+                  color: #FFFFFF
+                  width: 68px
+                  height: 21px
+                  background: #C93E33
+
+                & .sale__red
+                  font-weight: 400
+                  font-size: 10px
+                  line-height: 12px
+                  text-align: center
+                  padding-top: 5px
+                  letter-spacing: 0.009em
+                  text-transform: uppercase
+                  color: #FFFFFF
+                  width: 85px
+                  height: 21px
+                  background: #C93E33
+                  margin-top: 10px
+
+                & .share__red
+                  font-weight: 400
+                  font-size: 10px
+                  line-height: 12px
+                  text-align: center
+                  padding-top: 5px
+                  letter-spacing: 0.009em
+                  text-transform: uppercase
+                  color: #FFFFFF
+                  width: 79px
+                  height: 21px
+                  background: #C93E33
+                  margin-top: 10px
+
+             & .item__p-cr
+                margin-top: 15px
+                margin-left: 15px
+                position: absolute
+                z-index: 100
+
+                & .hit
+                   font-weight: 400
+                   font-size: 10px
+                   line-height: 12px
+                   text-align: center
+                   padding-top: 5px
+                   letter-spacing: 0.009em
+                   text-transform: uppercase
+                   color: #FFFFFF
+                   width: 54px
+                   height: 21px
+                   background: #FD7272
+                   border-radius: 50px
+
+                & .sale
+                   font-weight: 400
+                   font-size: 10px
+                   line-height: 12px
+                   text-align: center
+                   padding-top: 5px
+                   letter-spacing: 0.009em
+                   text-transform: uppercase
+                   color: #FFFFFF
+                   width: 62px
+                   height: 21px
+                   background: #E67E22
+                   border-radius: 50px
+                   margin-top: 15px
+
+                & .share
+                    font-weight: 400
+                    font-size: 10px
+                    line-height: 12px
+                    text-align: center
+                    padding-top: 5px
+                    letter-spacing: 0.009em
+                    text-transform: uppercase
+                    color: #FFFFFF
+                    width: 57px
+                    height: 21px
+                    background: #27AE60
+                    border-radius: 50px
+                    margin-top: 15px
+
+          & .item__right
+            width: 280px
+            height: 426px
+            overflow: hidden
+            border-bottom: 1px solid #E6E6E6
+            border-top: 1px solid #E6E6E6
+            transition: transform 300ms ease
+            background: #FFFFFF
+            z-index: 20
+
+            &:hover
+               transform: scale(1.1)
+               overflow: visible
+               background: #FFFFFF
+               border: 1px solid #E6E6E6
+               height: 545px
+               z-index: 300
+
+            & .img-3
+               margin-top: 69px
+               margin-left: 43px
+
+            & .img-6
+               margin-top: 60px
+               margin-left: 45px
+               margin-bottom: 5px
+
+            & .img-9
+                margin-top: 68px
+                margin-left: 64px
+
+            & .gost
+               font-weight: 400
+               font-size: 10px
+               line-height: 12px
+               text-align: center
+               padding-top: 4px
+               letter-spacing: 0.009em
+               color: #C93E33
+               width: 83px
+               height: 20px
+               background: #fbe0de
+               border-radius: 2px
+               margin-top: 38px
+               margin-left: 20px
+
+            & .item__title
+               font-weight: 400
+               font-size: 18px
+               line-height: 22px
+               letter-spacing: 0.009em
+               color: #000000
+               margin-top: 25px
+               margin-left: 20px
+
+            & .item__price
+               font-weight: 700
+               font-size: 15px
+               line-height: 18px
+               letter-spacing: 0.009em
+               color: #000000
+               margin-top: 9px
+               margin-left: 20px
+
+            & .item__button
+               width: 240px
+               height: 42px
+               background: #C93E33
+               border-radius: 4px
+               border: none
+               gap: 16px
+               display: flex
+               align-items: center
+               justify-content: center
+               margin-top: 28px
+               margin-left: 19px
+
+               & .text
+                 font-weight: 500
+                 font-size: 15px
+                 line-height: 18px
+                 letter-spacing: 0.009em
+                 color: #FFFFFF
+
+            & .item__btn
+               font-weight: 400
+               font-size: 15px
+               line-height: 18px
+               text-align: center
+               letter-spacing: 0.009em
+               color: #000000
+               width: 240px
+               height: 42px
+               background: #EFEFEF
+               border-radius: 4px
+               border: none
+               margin-top: 15px
+               margin-left: 19px
+               margin-bottom: 31px
+
+            & .item__p-tr
+                margin-top: 104px
+                position: absolute
+                z-index: 100
+
+                & .hit__tr
+                   font-weight: 400
+                   font-size: 10px
+                   line-height: 12px
+                   text-align: center
+                   padding-top: 5px
+                   letter-spacing: 0.009em
+                   text-transform: uppercase
+                   color: #FFFFFF
+                   width: 68px
+                   height: 21px
+                   background: #FD7272
+                   opacity: 0.7
+
+                & .sale__tr
+                   font-weight: 400
+                   font-size: 10px
+                   line-height: 12px
+                   text-align: center
+                   padding-top: 5px
+                   letter-spacing: 0.009em
+                   text-transform: uppercase
+                   color: #FFFFFF
+                   width: 85px
+                   height: 21px
+                   background: #E67E22
+                   opacity: 0.7
+                   margin-top: 10px
+
+                & .share__tr
+                   font-weight: 400
+                   font-size: 10px
+                   line-height: 12px
+                   text-align: center
+                   padding-top: 5px
+                   letter-spacing: 0.009em
+                   text-transform: uppercase
+                   color: #FFFFFF
+                   width: 79px
+                   height: 21px
+                   background: #27AE60
+                   opacity: 0.7
+                   margin-top: 10px
+
+  &-pagination
+    display: flex
+
+    &-withdraw
+      display: flex
+      align-items: center
+      margin-top: 32px
+      margin-left: 415px
+      margin-bottom: 48px
+
+      & .text
+        font-weight: 400
+        font-size: 17px
+        line-height: 20px
+        letter-spacing: 0.009em
+        color: #000000
+        padding-right: 13px
+
+      & .number
+        display: flex
+
+        & .svg
+          position: relative
+
+        & .num-red
+          font-weight: 400
+          font-size: 17px
+          line-height: 20px
+          letter-spacing: 0.009em
+          color: #C93E33
+          position: absolute
+          left: 542px
+
+        & .num
+          font-weight: 300
+          font-size: 17px
+          line-height: 20px
+          letter-spacing: 0.009em
+          color: #000000
+          padding-left: 15px
+
+    &-pag
+      margin-top: 35px
+      margin-left: 180px
+
+      & .svg
+        width: 35px
+        height: 35px
+        background: #FFFFFF
+        border: 1px solid #E6E6E6
+        border-radius: 2px
+
+      & .active
+        font-weight: 400
+        font-size: 12px
+        line-height: 14px
+        letter-spacing: 0.009em
+        color: #000000
+
+      & a
+        font-weight: 400
+        font-size: 12px
+        line-height: 14px
+        letter-spacing: 0.009em
+        color: #B3B3B3
+        padding: 10px 15px
+        width: 35px
+        height: 35px
+        background: #FFFFFF
+        border: 1px solid #E6E6E6
+        border-radius: 2px
+        text-align: center
+        margin-right: -5px
+
+    &-show
+      & .text
+        font-weight: 400
+        font-size: 15px
+        line-height: 18px
+        text-align: right
+        letter-spacing: 0.009em
+        color: #C93E33
+        padding-top: 34px
+        padding-left: 30px
+
+  &-description
+    width: 1102px
+    margin-left: 165px
+
+    & .title
+      font-weight: 700
+      font-size: 18px
+      line-height: 22px
+      letter-spacing: 0.009em
+      color: #000000
+      padding-bottom: 20px
+
+    & .text
+      font-weight: 400
+      font-size: 15px
+      line-height: 18px
+      letter-spacing: 0.009em
+      color: #000000
+
+    & .text-mini
+      font-weight: 400
+      font-size: 15px
+      line-height: 18px
+      letter-spacing: 0.009em
+      color: #C93E33
+      padding-top: 15px
+      padding-bottom: 35px
+
+.main__catalog-title
+  font-weight: 500
+  font-size: 30px
+  line-height: 36px
+  letter-spacing: 1px
+  color: #000000
+  padding-top: 15px
+  padding-left: 145px
+  padding-bottom: 31px
+
+.main__catalog-box
+  width: 1110px
+  background: #FFFFFF
+  border: 1px solid #E6E6E6
+  margin-left: 165px
+  margin-bottom: 30px
+
+  &-item
+    display: flex
+    flex-wrap: wrap
+    margin-top: 30px
+    margin-left: 30px
+    margin-bottom: 40px
+    gap: 30px
+
+.main__cart-title
+  font-weight: 500
+  font-size: 30px
+  line-height: 36px
+  letter-spacing: 1px
+  color: #000000
+  padding-top: 15px
+  padding-left: 145px
+  padding-bottom: 31px
+
+.main__cart-box
+  width: 1110px
+  background: #FFFFFF
+  border: 1px solid #E6E6E6
+  margin-left: 165px
+  margin-bottom: 30px
+  display: flex
+
+  & .left
+    width: 830px
+    height: 827px
+    border-right: 1px solid #E6E6E6
+
+    & .left__title
+      display: flex
+      align-items: center
+      width: 830px
+      height: 59px
+      border-bottom: 1px solid #E6E6E6
+
+      & svg
+        margin-left: 20px
+
+      & .title
+        font-weight: 400
+        font-size: 12px
+        line-height: 14px
+        letter-spacing: 0.009em
+        color: #B3B3B3
+        padding-left: 12px
+        padding-top: 5px
+
+    & .item
+      display: flex
+      align-items: center
+      width: 830px
+      height: 171px
+      border-bottom: 1px solid #E6E6E6
+
+      & img
+        margin-left: 23px
+        margin-right: 26px
+
+      & .text
+        width: 231px
+        margin-right: 85px
+
+        & .gost
+          font-weight: 400
+          font-size: 10px
+          line-height: 12px
+          text-align: center
+          padding-top: 4px
+          letter-spacing: 0.009em
+          color: #C93E33
+          width: 83px
+          height: 20px
+          background: #fbe0de
+          border-radius: 2px
+
+        & .title
+          font-weight: 400
+          font-size: 18px
+          line-height: 22px
+          letter-spacing: 0.009em
+          color: #000000
+          padding-top: 6px
+          padding-bottom: 16px
+
+        & .price
+          font-weight: 700
+          font-size: 15px
+          line-height: 18px
+          letter-spacing: 0.009em
+          color: #B3B3B3
+
+      & .quantity
+        display: flex
+
+        & p
+          font-weight: 400
+          font-size: 18px
+          line-height: 22px
+          letter-spacing: 0.009em
+          color: #000000
+          width: 35px
+          height: 35px
+          background: #FFFFFF
+          border: 1px solid #E6E6E6
+          border-radius: 2px
+          padding: 6px 10px
+          margin-left: -5px
+
+      & .summa
+        font-weight: 700
+        font-size: 18px
+        line-height: 18px
+        letter-spacing: 0.009em
+        color: #000000
+        padding-left: 40px
+        padding-right: 55px
+
+    & .clear
+      display: flex
+      margin-left: 644px
+      margin-top: 32px
+      margin-bottom: 38px
+
+      & p
+        font-weight: 400
+        font-size: 15px
+        line-height: 18px
+        letter-spacing: 0.009em
+        color: #C93E33
+        padding-left: 17px
+
+  & .right
+    & .right__title
+      border-bottom: 1px solid #E6E6E6
+
+      & .title
+        font-weight: 500
+        font-size: 18px
+        line-height: 22px
+        letter-spacing: 1px
+        color: #000000
+        padding-left: 20px
+        padding-top: 18px
+        padding-bottom: 17px
+
+    & .info
+      margin-top: 18px
+      margin-left: 20px
+
+      & .title
+        font-weight: 400
+        font-size: 15px
+        line-height: 18px
+        letter-spacing: 0.009em
+        color: #B3B3B3
+
+      & .title-mini
+        font-weight: 400
+        font-size: 12px
+        line-height: 14px
+        letter-spacing: 0.009em
+        color: #B3B3B3
+        padding-top: 20px
+        padding-bottom: 8px
+
+      & .item
+        display: flex
+        width: 240px
+        border-bottom: 1px solid #E6E6E6
+        margin-bottom: 25px
+
+        & .text-main
+          font-weight: 400
+          font-size: 15px
+          line-height: 18px
+          letter-spacing: 0.009em
+          color: #000000
+          padding-left: 15px
+          padding-bottom: 8px
+
+        & .text
+          font-weight: 300
+          font-size: 15px
+          line-height: 18px
+          letter-spacing: 0.009em
+          color: #B3B3B3
+          padding-left: 15px
+          padding-bottom: 8px
+
+      & .summa
+        display: flex
+        margin-top: 18px
+
+        & .text
+          font-weight: 500
+          font-size: 18px
+          line-height: 22px
+          letter-spacing: 1px
+          color: #000000
+          padding-right: 94px
+
+        & .price
+          font-weight: 500
+          font-size: 18px
+          line-height: 22px
+          text-align: right
+          letter-spacing: 1px
+          color: #C93E33
+
+      & .design
+        display: flex
+        align-items: center
+        justify-content: center
+        width: 240px
+        height: 42px
+        background: #C93E33
+        border-radius: 4px
+        border: none
+        gap: 27px
+        margin-top: 21px
+
+        & .text
+          font-weight: 500
+          font-size: 15px
+          line-height: 18px
+          letter-spacing: 0.009em
+          color: #FFFFFF
+
+      & .offer
+        display: flex
+        align-items: center
+        justify-content: center
+        width: 240px
+        height: 62px
+        background: #FFFFFF
+        border: 1px solid #C93E33
+        border-radius: 4px
+        gap: 12px
+        margin-top: 15px
+
+        & .text
+          width: 126px
+          font-weight: 500
+          font-size: 15px
+          line-height: 18px
+          letter-spacing: 0.009em
+          color: #C93E33
+
+.main__product-box
+  width: 1110px
+  background: #FFFFFF
+  border: 1px solid #E6E6E6
+  margin-left: 165px
+  margin-bottom: 30px
+
+  & .product__title
+    display: flex
+    border-bottom: 1px solid #E6E6E6
+
+    & .sale
+      text-align: center
+      font-weight: 400
+      font-size: 15px
+      line-height: 18px
+      text-align: center
+      letter-spacing: 0.009em
+      text-transform: uppercase
+      color: #FFFFFF
+      width: 118px
+      height: 30px
+      background: #C93E33
+      padding-top: 6px
+      margin-top: 20px
+      margin-left: 30px
+      margin-bottom: 21px
+
+    & .article
+      font-weight: 400
+      font-size: 15px
+      line-height: 18px
+      text-align: right
+      letter-spacing: 0.009em
+      color: #B3B3B3
+      margin-top: 25px
+      margin-left: 818px
+      margin-bottom: 26px
+
+  & .product
+    display: flex
+    border-bottom: 1px solid #E6E6E6
+
+    & .left
+      width: 555px
+      border-right: 1px solid #E6E6E6
+
+      & .top
+        border-bottom: 1px solid #E6E6E6
+
+        & img
+          margin: 20px 67px 48px 67px
+
+      & .bottom
+        display: flex
+        align-items: center
+        gap: 22px
+        margin-top: 22px
+        margin-left: 128px
+        margin-bottom: 32px
+
+        & .main
+          width: 70px
+          height: 70px
+          border: 1px solid #C93E33
+          padding: 10px
+
+    & .right
+      & .right__title
+        display: flex
+        flex-direction: column
+        border-bottom: 1px solid #E6E6E6
+
+        & .title
+          font-weight: 500
+          font-size: 30px
+          line-height: 36px
+          letter-spacing: 1px
+          color: #000000
+          padding-top: 30px
+          padding-left: 30px
+          padding-bottom: 6px
+
+        & .gost
+          font-weight: 400
+          font-size: 10px
+          line-height: 12px
+          text-align: center
+          padding-top: 4px
+          letter-spacing: 0.009em
+          color: #C93E33
+          width: 83px
+          height: 20px
+          background: #fbe0de
+          border-radius: 2px
+          margin-left: 30px
+          margin-bottom: 30px
+
+      & .right__price
+        border-bottom: 1px solid #E6E6E6
+
+        & .title
+          font-weight: 400
+          font-size: 12px
+          line-height: 14px
+          color: #B3B3B3
+          padding-top: 30px
+          padding-left: 30px
+          padding-bottom: 10px
+
+        & .price__item
+          display: flex
+          align-items: center
+
+          & .price-main
+            font-weight: 500
+            font-size: 24px
+            line-height: 29px
+            letter-spacing: 1px
+            color: #C93E33
+            padding-left: 30px
+            padding-right: 11px
+
+          & .price
+            font-weight: 400
+            font-size: 18px
+            line-height: 22px
+            letter-spacing: 1px
+            text-decoration-line: line-through
+            color: #B3B3B3
+            padding-right: 90px
+
+          & .quantity
+            display: flex
+
+            & p
+              font-weight: 400
+              font-size: 18px
+              line-height: 22px
+              letter-spacing: 0.009em
+              color: #000000
+              width: 35px
+              height: 35px
+              background: #FFFFFF
+              border: 1px solid #E6E6E6
+              border-radius: 2px
+              padding: 6px 10px
+              margin-left: -5px
+
+        & .button
+          width: 240px
+          height: 50px
+          background: #C93E33
+          border-radius: 4px
+          border: none
+          display: flex
+          align-items: center
+          justify-content: center
+          gap: 16px
+          margin-top: 32px
+          margin-left: 30px
+          margin-bottom: 40px
+
+          & .text
+            font-weight: 500
+            font-size: 18px
+            line-height: 22px
+            letter-spacing: 0.009em
+            color: #FFFFFF
+
+      & .right__text
+        & .title
+          font-weight: 400
+          font-size: 12px
+          line-height: 14px
+          color: #B3B3B3
+          padding-top: 30px
+          padding-left: 30px
+          padding-bottom: 11px
+
+        & .text
+          width: 497px
+          font-weight: 400
+          font-size: 15px
+          line-height: 150%
+          letter-spacing: 0.009em
+          color: #000000
+          padding-left: 30px
+
+        & .text-red
+          font-weight: 400
+          font-size: 15px
+          line-height: 150%
+          letter-spacing: 0.009em
+          color: #C93E33
+          padding-top: 11px
+          padding-left: 30px
+          padding-bottom: 36px
+
+  & .info
+    display: flex
+
+    & .info__left
+      width: 740px
+      border-right: 1px solid #E6E6E6
+
+      & .info__title
+        border-bottom: 1px solid #E6E6E6
+
+        & .title
+          font-weight: 500
+          font-size: 18px
+          line-height: 22px
+          letter-spacing: 1px
+          color: #000000
+          padding-top: 19px
+          padding-left: 30px
+          padding-bottom: 19px
+
+      & .info__box
+        & .left__item
+          display: flex
+          align-items: flex-end
+
+          & .title
+            font-weight: 400
+            font-size: 15px
+            line-height: 18px
+            letter-spacing: 0.009em
+            color: #B3B3B3
+            padding-left: 30px
+            padding-top: 30px
+
+          & .text
+            font-weight: 400
+            font-size: 15px
+            line-height: 18px
+            text-align: right
+            letter-spacing: 0.009em
+            color: #000000
+
+        & .last
+          margin-bottom: 30px
+
+    & .info__right
+      width: 370px
+
+      & .right__title
+        border-bottom: 1px solid #E6E6E6
+
+        & .title
+          font-weight: 500
+          font-size: 18px
+          line-height: 22px
+          letter-spacing: 1px
+          color: #000000
+          padding-top: 19px
+          padding-left: 30px
+          padding-bottom: 19px
+
+      & .right__box
+        margin-top: 30px
+        margin-left: 30px
+
+        & .right__item
+          display: flex
+          margin-bottom: 35px
+
+          & .text
+            margin-left: 20px
+
+            & .title
+              font-weight: 400
+              font-size: 15px
+              line-height: 150%
+              letter-spacing: 0.009em
+              color: #000000
+
+            & .text
+              font-weight: 300
+              font-size: 12px
+              line-height: 150%
+              letter-spacing: 0.009em
+              color: #C93E33
+
+.main__product-box-mini
+  width: 1110px
+  background: #FFFFFF
+  margin-left: 165px
+
+  & .box-mini-title
+    display: flex
+    border-bottom: 1px solid #E6E6E6
+
+    & .title
+      font-weight: 500
+      font-size: 18px
+      line-height: 22px
+      letter-spacing: 1px
+      color: #000000
+      padding-top: 19px
+      padding-left: 30px
+      padding-bottom: 19px
+
+    & .num
+      padding-left: 823px
+      padding-top: 20px
+
+  & .box-mini-item
+    display: flex
+    border-bottom: 1px solid #E6E6E6
+
+    & .column
+      width: 280px
+      height: 412px
+
+      & .img1
+        margin-top: 17px
+        margin-left: 63px
+
+      & .img2
+        margin-top: 50px
+        margin-left: 57px
+
+      & .img3
+        margin-top: 53px
+        margin-left: 63px
+
+      & .gost
+        font-weight: 400
+        font-size: 10px
+        line-height: 12px
+        text-align: center
+        padding-top: 4px
+        letter-spacing: 0.009em
+        color: #C93E33
+        width: 83px
+        height: 20px
+        background: #fbe0de
+        border-radius: 2px
+        margin-left: 19px
+        margin-top: 21px
+
+      & .title-first
+        font-weight: 400
+        font-size: 18px
+        line-height: 22px
+        letter-spacing: 0.009em
+        color: #000000
+        padding-top: 25px
+        padding-bottom: 9px
+        padding-left: 19px
+
+      & .title
+        font-weight: 400
+        font-size: 18px
+        line-height: 22px
+        letter-spacing: 0.009em
+        color: #000000
+        padding-top: 25px
+        padding-bottom: 31px
+        padding-left: 19px
+
+      & .text
+        font-weight: 700
+        font-size: 15px
+        line-height: 18px
+        letter-spacing: 0.009em
+        color: #000000
+        padding-bottom: 30px
+        padding-left: 19px
+
+    & .main
+      border-left: 1px solid #E6E6E6
+
+  & .box-mini-line
+    margin-bottom: 35px
+    border-bottom: 1px solid #E6E6E6
+
+    & .item
+      & .red
+        position: absolute
+        left: 200px
+        top: 2022px
+        z-index: 100
+
+      & .grey
+        position: relative
+        margin-top: 22px
+        margin-left: 30px
+        margin-bottom: 31px
